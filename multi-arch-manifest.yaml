@@ -1,0 +1,16 @@
+image: takealug/easyepg:latest
+manifests:
+  - image: takealug/easyepg:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: takealug/easyepg:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
+  - image: takealug/easyepg:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
