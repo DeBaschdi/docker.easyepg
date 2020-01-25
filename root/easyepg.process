@@ -8,7 +8,7 @@ if  [[ "${UPDATE}" = "yes" ]]; then
 fi
 
 chmod -R 775 /easyepg
-chmod -R 775 /tmp
+chmod -R 777 /tmp
 
 echo "Running easyepg"
 cd /easyepg && /bin/bash /easyepg/epg.sh
