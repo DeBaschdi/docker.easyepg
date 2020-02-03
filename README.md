@@ -66,5 +66,16 @@ If you decide to remove `XML_STORAGE` the finished XML files can be found in the
  * * * * *  /command/to/execute
 ```
 
+## First Run / Initial Setup Easyepg
+Inside this Container you need to run /usr/local/bin/easyepg.process 
+Connect to the Container e.g 
+```
+docker exec -ti easyepg /usr/local/bin/easyepg.process
+```
+> **Note:** For initial Setup instructions see :https://telerising.de/index.php/sample-page/easyepg/
+>> Please, after you finish your Initial Setup, restart this Container to prevent Permission Problems.
+>>> Now Easyepg wait for the next Cronjob and should create your XML
+
+
 ## Support my work
 If you like my Work, please [![Paypal Donation Page](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://paypal.me/DeBaschdi) - thank you! :-)
