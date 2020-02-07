@@ -76,11 +76,11 @@ docker exec -ti easyepg /usr/local/bin/easyepg.process
 >> Please, after you finish your Initial Setup, restart this Container to prevent Permission Problems.
 >>> Now Easyepg wait for the next Cronjob and should create your XML
 
+## Support my work
+If you like my Work, please [![Paypal Donation Page](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://paypal.me/DeBaschdi) - thank you! :-)
 
+## Unraid Template
 > **Note:** An Template for Unraid can be found here : https://raw.githubusercontent.com/DeBaschdi/docker.easyepg/master/Templates/Unraid/my-easyEPG.xml
 > Please safe it to into \flash\config\plugins\dockerMan\templates-user, after that you can use this Template in Unraids Webui. Docker > Add Container > Select Template and choose easyEPG
 
-![Settings Window](https://raw.githubusercontent.com/DeBaschdi/docker.easyepg/master/Templates/Unraid/Screenshot.png)
-
-## Support my work
-If you like my Work, please [![Paypal Donation Page](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://paypal.me/DeBaschdi) - thank you! :-)
+<img src="https://raw.githubusercontent.com/DeBaschdi/docker.easyepg/master/Templates/Unraid/Screenshot.png" height="325" width="265">
